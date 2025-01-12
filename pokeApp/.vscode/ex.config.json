@@ -1,0 +1,5 @@
+{
+	"disabled": ["esbenp.prettier-vscode"],
+	"autoReaload": true,
+	"openInNewWindow": true
+}
