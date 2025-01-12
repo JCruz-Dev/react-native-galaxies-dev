@@ -1,8 +1,13 @@
-import { Stack, useRouter } from "expo-router";
+import { Stack } from "expo-router";
 
 const StackLayout = () => {
   return (
-    <Stack>
+    <Stack
+      screenOptions={{
+        headerStyle: { backgroundColor: "tomato" },
+        headerTintColor: "white",
+      }}
+    >
       <Stack.Screen
         name="index"
         options={{ headerShown: false, headerTitle: "Your Home" }}
@@ -10,6 +15,9 @@ const StackLayout = () => {
       <Stack.Screen name="Home" />
       <Stack.Screen name="profile" />
       <Stack.Screen name="feed" />
+      <Stack.Screen name="drawer" options={{ headerShown: false }} />
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack.Screen name="modal" options={{ presentation: "modal" }} />
     </Stack>
   );
 };
