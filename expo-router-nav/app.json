@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "newArchEnabled": true,
+    "scheme": "acme",
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "expo-router-nav",
+    "slug": "expo-router-nav",
+    "ios": {
+      "bundleIdentifier": "com.stanlee321.expo-router-nav"
+    }
+  }
+}
